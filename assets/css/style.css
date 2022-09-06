@@ -1,0 +1,176 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Colors */
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+/* General configs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CSS main */
+
+.banner {
+    background-color: var(--purple-bg);
+    border-bottom: 5px solid #4fff4b;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+header .logo {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header nav ul li {
+    color: white;
+}
+
+header nav ul li:nth-child(1) {
+    padding: 0 5px;
+    border-left: 2px solid #4fff4b;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+}
+
+header .search input {
+    height: 40px;
+    width: 220px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 0 20px;
+}
+
+header .search button {
+    background-color: var(--button-bg);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 0px 5px 5px 0 ;
+    height: 40px;
+}
+
+
+/* Banner */
+
+.banner-featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.banner-featured div {
+    flex: 1;
+}
+
+.banner-featured .content h1 {
+    color: white;
+    font-size: 40px;
+    /* letter-spacing: 2px; */
+    color: var(--button-bg);
+    margin-bottom: 15px;
+}
+
+.banner-featured .content p {
+    color: white;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.banner-featured .content a {
+    text-decoration: none;
+    color: var(--button-bg);
+    display: flex;
+    gap: 5px;
+}
+
+/* Main */
+main {
+    padding: 100px 0;
+}
+
+main .posts {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+main .posts .box {
+    padding: 10px;
+    margin: 10px;
+}
+
+main .posts .box h2 {
+    font-size: 20px;
+    color: var(--purple-bg);
+}
+
+main .posts .box p {
+    font-size: 14px;
+}
+
+.posts-featured {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.posts-featured div {
+    flex: 1;
+}
+
+.posts-featured h2 {
+    font-size: 20px;
+    color: var(--purple-bg);
+}
+
+.posts-featured .col1 h2 {
+    margin-bottom: 20px;
+}
+
+.posts-featured .col1 img {
+    margin-bottom: 20px;
+}
+
+.posts-featured .col2 hr {
+    color: rgba(128, 128, 128, 0.302);
+    margin-bottom: 30px;
+}
+
+.posts-featured .col2 p:nth-child(3) {
+    margin-bottom: 40px;
+}
