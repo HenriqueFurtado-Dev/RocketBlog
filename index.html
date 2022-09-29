@@ -4,95 +4,532 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RocketBlog</title>
-
-    <!-- LINKS -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-
+    <title>AWAX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
-    <section class="banner">
-
-        <header>
+    <header>
+        <div class="header">
             <div class="logo">
-                The Blog
+                <div class="logoimg">
+                    <div class="text_logo">logo</div>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Categorias</li>
-                    <li>Contato</li>
-                </ul>
-            </nav>
-            <div class="search">
-                <input type="search" placeholder="Buscar" name="" id="">
-                <button><img src="/assets/images/search.svg" alt=""></button>
+            <div class="menu" id="area1">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Our projects</a></li>
+                        <li><a href="">Our Team</a></li>
+                        <li><a href="">Happy Clients</a></li>
+                        <li><a href="">Price</a></li>
+                        <li><a href="">Some Facts</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </nav>
             </div>
-        </header>
-
-        <div class="banner-featured">
-            <div class="content">
-                <h1>
-                    Veja o guia definitivo para <br>
-                    conquistar seus objetivos <br>
-                    como DEV em 2022 <br>
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, et at quisquam quibusdam atque vel expedita eos excepturi officia tenetur, quas tempore velit error, assumenda totam dolore adipisci cumque maiores?
-                </p>
-
-                <a href="#">Veja mais <img src="/assets/images/arrow-right.svg" alt=""></a>
-            </div>
-
-            <div class="img">
-                <img src="/assets/images/featured-image.png" alt="">
-            </div>
-
         </div>
-
-    </section>
+    </header>
 
     <main>
-        <div class="posts-featured">
-            <div class="col1">
-                <img src="/assets/images/post-1.png" alt="">
-                <p>Janeiro 04, 2022</p>
-                <h2>Começando no ReactJS em 2022</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo fuga soluta id cumque temporibus? Dolorem accusantium quibusdam </p>
+        <section class="banner">
+            <div class="sliders">
+                <div class="slide">
+                    <div class="slidearea">
+                        <h1>Design is About <br> <span> Comunnication </span></h1>
+                        <h2>Call Us: +00 0 1234 5678</h2>
+                        <a href="">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    ...2
+                </div>
+                <div class="slide">
+                    ...3
+                </div>
             </div>
+            <div class="sliders_pointers">
+                <div  class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+            </div>
+        </section>
 
-            <div class="col2">
-                <p>Janeiro 04, 2022</p>
-                <h2>Conheça as principais técnicas para <br> conseguir uma vaga internacional<br> em programação</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo fuga soluta id cumque temporibus? Dolorem accusantium quibusdam </p>
-                <hr>
-                <p>Janeiro 04, 2022</p>
-                <h2>Veja a evolução do Front-end na prática</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo fuga soluta id cumque temporibus? Dolorem accusantium quibusdam </p>
+        <!--Criação do FRAMEWORK light-->
+        <section class="default light">
+            <div class="section_title">About Us</div>
+            <div class="section_desk">Who we are</div>
+            <div class="section_body">
+                <div class="section-aboutus">
+                    <div class="section-aboutus--left">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac egestas lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum in nisi sollicitudin justo vestibulum porta a vitae urna. Curabitur commodo sit amet risus vitae lacinia. Sed posuere mauris id metus imperdiet volutpat. In et nibh sed neque porta ultricies vitae at erat. </p> 
 
+                        <a href="" class="button">Learn more</a>
+                    </div>
+                    <div class="section-aboutus--right">
+                        <img src="media/background-img-man.jpg" alt="">
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="posts">
-            <div class="box">
-                <img src="/assets/images/post-2.png" alt="">
-                <p>Janeiro 04, 2022</p>
-                <h2>10 dicas para conseguir a vaga desejada</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo fuga soluta id cumque temporibus? Dolorem accusantium quibusdam </p>
+        </section>
+
+        <!--Criação do FRAMEWORK dark-->
+        <section class="default dark">
+            <div class="section_title">Services</div>
+            <div class="section_desk">Services that we provide</div>
+            <div class="section_body">
+                <div class="section-services">
+                    <div class="section-service">
+                        <img src="Assets/images/medalha.png" alt="">
+                        <h4>Hihg Quality design</h4>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="Assets/images/estrela.png" alt="">
+                        <h4>Modern Design</h4>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="Assets/images/relogio.png" alt="">
+                        <h4>Regular Updates</h4>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="Assets/images/balao.png" alt="">
+                        <h4>Fast anda free suport</h4>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                </div>
             </div>
-            <div class="box">
-                <img src="/assets/images/post-3.png" alt="">
-                <p>Janeiro 04, 2022</p>
-                <h2>10 dicas para conseguir a vaga desejada</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo fuga soluta id cumque temporibus? Dolorem accusantium quibusdam </p>
+        </section>
+
+        <section class="default light">
+            <div class="section_title">Our projects</div>
+            <div class="section_desk">What we create</div>
+            <div class="section_body">
+                <div class="section-projects">
+                    <div class="section-projects--filters">
+                        <ul>
+                            <li class="active">All</li>
+                            <li>photos</li>
+                            <li>branding</li>
+                            <li>adverts</li>
+                            <li>development</li>
+                            <li>misc</li>
+        
+                        </ul>
+                    </div>
+                    <div class="section-projects--photos">
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Lorem Ipsum is simply dummy text</p>
+                                </div>
+                                <img src="media/foto6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="" class="button">More projects</a>
+                </div>
             </div>
-            <div class="box">
-                <img src="/assets/images/post-4.png" alt="">
-                <p>Janeiro 04, 2022</p>
-                <h2>10 dicas para conseguir a vaga desejada</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo fuga soluta id cumque temporibus? Dolorem accusantium quibusdam </p>
+        </section>
+
+
+        <section class="default dark bg-team">
+            <div class="section-team-area">
+                <div class="section_title">Our team</div>
+                <div class="section_desk">Our Co-workes</div>
+                <div class="section_body">
+                    <div class="section-team">
+                        <div class="sliders">
+                            <div class="slide">
+                                <div class="slidearea">
+                                    <img class="section-team--avatar" src="media/mulher1.png" alt="">
+                                    <div class="section-team--name">Jane Doe</div>
+                                    <div class="section-team--role">Master Mind</div>
+                                    <div class="section-team--social">
+                                        <a href=""><img src="Assets/images/facebook.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/googleplus.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/linkedin.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/pinterest.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/twitter.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slidearea">
+                                    <img class="section-team--avatar" src="media/homem1.png" alt="">
+                                    <div class="section-team--name">Mie Chiller</div>
+                                    <div class="section-team--role">Creative Head</div>
+                                    <div class="section-team--social">
+                                        <a href=""><img src="Assets/images/facebook.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/googleplus.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/linkedin.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/pinterest.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/twitter.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slidearea">
+                                    <img class="section-team--avatar" src="media/mulher2.png" alt="">
+                                    <div class="section-team--name">Ana Jons</div>
+                                    <div class="section-team--role">Tecnical Lead</div>
+                                    <div class="section-team--social">
+                                        <a href=""><img src="Assets/images/facebook.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/googleplus.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/linkedin.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/pinterest.png" alt=""></a>
+                                        <a href=""><img src="Assets/images/twitter.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders_pointers">
+                            <div class="pointer active"></div>
+                            <div class="pointer"></div>
+                            <div class="pointer"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+
+        <section class="default light" id="section-df-bk">
+            <div class="section_title">Happy Clients</div>
+            <div class="section_desk">Clients Reviews</div>
+            <div class="section_body">
+                <div class="section-aboutus">
+                    <div class="container">
+                        <img src="media/homem2.png" alt="">
+                        <div class="section-team--name">John Doe</div>
+                        <div class="section-team--role">Head of PR departament</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus faucibus sem, sed sollicitudin leo blandit tincidunt. Nam luctus leo nec imperdiet dapibus. Donec volutpat eros a quam scelerisque, a varius nibh finibus. Nulla viverra mattis mi, in volutpat tortor sagittis eget. Aliquam erat volutpat. </p>
+                        <div class="sliders_pointers">
+                            <div class="pointer active"></div>
+                            <div class="pointer"></div>
+                            <div class="pointer"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default light" id="line">
+            <div class="section_body">
+                <div class="section-aboutus">
+                    <div class="container-logo">
+                        <img class="logo" src="media/empresa1.png" alt="">
+                        <img class="logo" src="media/empresa2.png" alt="">
+                        <img class="logo" src="media/empresa3.png" alt="">
+                        <img class="logo" src="media/empresa4.png" alt="">
+                        <img class="logo" src="media/empresa5.png" alt="">
+                        <img class="logo" src="media/empresa6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default light" id="section-df-bk">
+            <div class="section_title">Price</div>
+            <div class="section_desk">Pricing Table</div>
+            <div class="section_body" id="body-box">
+                <div class="section-aboutus" >
+                    <div class="container" id="container-box">
+                        <div class="box">
+                            <h1>Express</h1>
+                            <div>$99.90</div>
+                            <p>/MONTH</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <a href="">CHOOSE</a>
+                        </div>
+                        <div class="box">
+                            <h1>Express</h1>
+                            <div>$99.90</div>
+                            <p>/MONTH</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <a href="">CHOOSE</a>
+                        </div>
+                        <div class="box">
+                            <h1>Express</h1>
+                            <div>$99.90</div>
+                            <p>/MONTH</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <p>Tracking issues</p>
+                            <p>...</p>
+                            <a href="">CHOOSE</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="default light">
+            <div class="section_title">Premium</div>
+            <div class="section_desk">Even Features Available</div>
+            <div class="section_body">
+                <div class="section-premium">
+                    <div class="premium-img">
+                        <img src="media/livros.png" alt="">
+                    </div>
+                    <div class="premium-text">
+                        <div class="icon">
+                        <img src="Assets/images/check.png" alt="">
+                        <h1>First Feature</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet est mi. Ut ullamcorper posuere nunc quis fringilla. Curabitur interdum metus purus, non porta enim tristique at <br>
+                        -FEATURE ONE <br>
+                        -FEATURE TWO <br>
+                        -FEATURE TREE <br>
+                        </p>
+                        <div class="icon">
+                            <img src="Assets/images/check.png" alt="">
+                            <h1>Second Feature</h1>
+                            </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet est mi. Ut ullamcorper posuere nunc quis fringilla. Curabitur interdum metus purus, non porta enim tristique at</p>
+                        <div class="icon">
+                            <img src="Assets/images/check.png" alt="">
+                            <h1>Third Feature</h1>
+                            </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet est mi. Ut ullamcorper posuere nunc quis fringilla. Curabitur interdum metus purus, non porta enim tristique at</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="default dark">
+            <div class="section_title">Some Facts</div>
+            <div class="section_desk">About we work</div>
+            <div class="section_body">
+                <div class="section-facts">
+                    <div class="section-fact">
+                        <h1>1000</h1>
+                        <div class="line"></div>
+                        <h2>Hihg Quality design</h2>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                    <div class="section-fact">
+                        <h1>500</h1>
+                        <div class="line"></div>
+                        <h2>Modern Design</h2>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                    <div class="section-fact">
+                        <h1>900</h1>
+                        <div class="line"></div>
+                        <h2>Regular Updates</h2>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                    <div class="section-fact">
+                        <h1>700</h1>
+                        <div class="line"></div>
+                        <h2>Fast anda free suport</h2>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default light">
+            <div class="section_title">Contact US</div>
+            <div class="section_desk">Our agency locater in melbourn australia</div>
+            <div class="section_body">
+                <div class="section-contact">
+                    <div class="section-contact-form">
+                        <form action="">
+                            <input type="text" placeholder="NAME" name="" id="">
+                            <input type="email" placeholder="EMAIL"> <br>
+                            <input type="text" placeholder="SUBJECT">  <br>
+                            <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                            <a href="">SEND MESSAGE</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-map">
+            <div class="section-map--area">
+                <div class="section-map--info">
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                        <img src="Assets/images/carta.png" alt="">
+                        </div>
+                        Rua endereço 
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                        <img src="Assets/images/localizacao.png" alt="">
+                        </div>
+                        Localização
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                        <img src="Assets/images/telefone.png" alt="">
+                        </div>
+                        +102 548 6514
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                        <img src="Assets/images/arroba.png" alt="">
+                        </div>
+                        @Awax
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                        <img src="Assets/images/web.png" alt="">
+                        </div>
+                        www.awax.com
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+        <div class="footer--area">
+            <div class="footer--item area1">
+                <div class="footer-social">
+                    <a href=""><img src="assets/images/twitter.png" /></a>
+                    <a href=""><img src="assets/images/linkedin.png" /></a>
+                    <a href=""><img src="assets/images/facebook.png" /></a>
+                    <a href=""><img src="assets/images/googleplus.png" /></a>
+                    <a href=""><img src="assets/images/pinterest.png" /></a>
+                </div>
+            </div>
+            <div class="footer--item area2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta aliquet risus, ac rhoncus sem aliquet ac. Donec tincidunt cursus elit vitae euismod.
+            </div>
+            <div class="footer--item area3">
+                <form method="POST">
+                    <input type="email" name="email" placeholder="EMAIL TO SUBSCRIBE" />
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
